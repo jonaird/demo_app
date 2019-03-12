@@ -15,7 +15,7 @@ You can check all that including the Java/Swift code in `plugins/demo_plugin`
 Then add your plugin to your Flutter app project folder and import it by adding
 ```
 plugin_name:
-  path:./plugins/plugin_name
+  path:./plugin file path/plugin_name
  ```
   
  to your `pubspec.yaml` file under `dev_dependencies` in your main project folder and boom! You're done (as long as you're using an IDE with Flutter extensions installed otherwise run `flutter packages get`).
