@@ -1,0 +1,11 @@
+framework module plugin_demo {
+  umbrella header "plugin_demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module plugin_demo.Swift {
+    header "plugin_demo-Swift.h"
+    requires objc
+}
