@@ -13,8 +13,8 @@ This creates a Flutter project (with a demo flutter app inside it that you don't
 You can check all that including the Java/Swift code in `plugins/demo_plugin`
 
 Then add your plugin to your Flutter app project folder and import it by adding
-`plugin_name:
-  path:./plugins/plugin_name`
+```plugin_name:
+  path:./plugins/plugin_name```
   
  to your `pubspec.yaml` file in your main project folder and boom! You're done.
  
