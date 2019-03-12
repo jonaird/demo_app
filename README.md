@@ -8,7 +8,7 @@ The simplest way to do this is to create a Flutter plugin by running
 
 which enables Swift.
 
-This creates a Flutter project (with a demo flutter app inside it that you don't need). The main Dart file defines asynchronous methods that you can call in your Flutter app. These methods are linked to Java and Swift code depending on the platform which is found in the ios and android folders.
+This creates a Flutter plugin project (with a demo flutter app inside it that you don't need). The main Dart file defines asynchronous methods that you can call in your Flutter app once your import the plugin. These methods are linked to Java and Swift code depending on the platform which is found in the ios and android folders.
 
 You can check all that including the Java/Swift code in `plugins/demo_plugin`
 
@@ -20,4 +20,4 @@ plugin_name:
   
  to your `pubspec.yaml` file under `dev_dependencies` in your main project folder and boom! You're done.
  
- Make sure that you create your main Flutter app project with Swift enabled.
+ Make sure that you call these methods asynchronously and create your main Flutter app project with Swift enabled.
